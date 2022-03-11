@@ -21,6 +21,8 @@ Note: If the software does not show anything, please download your specific toke
 <br>7.Navigation Components
 <br>8.Dokka
 <br>9.Live Data
+<br>10.Web view
+<br>11.Shared Preferences
 
 <h3> Demo of App:</h3>
 <table>
