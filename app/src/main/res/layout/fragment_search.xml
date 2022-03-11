@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_activity_color"
+    tools:context=".ui.search.SearchFragment">
+
+    <include android:id="@+id/filter2"
+        layout="@layout/activity_filter2"/>
+    <include android:id="@+id/filter1"
+        layout="@layout/activity_filter1"/>
+
+    <include android:id="@+id/toolbarSearch"
+        layout="@layout/custom_toolbar"/>
+
+    <TextView
+        android:id="@+id/tvSearchTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="16dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginHorizontal="16dp"
+        android:id="@+id/recyclerview_search"
+        android:layout_width="match_parent"
+        android:paddingBottom="100dp"
+        android:clipToPadding="false"
+        android:layout_height="match_parent"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginHorizontal="16dp"
+        android:id="@+id/recyclerview_history"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:paddingBottom="100dp"
+        android:clipToPadding="false"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="title_home">Home</string>
+    <string name="title_news">News</string>
+    <string name="title_search">Search</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_more">More</string>
+    <string name="pref_key_history">History</string>
+    <string name="news">News</string>
+    <string name="to">to</string>
+    <string name="from">from</string>
+    <string name="filter">Filter</string>
+    <string name="all">All</string>
+    <string name="description">Description</string>
+    <string name="todo">TODO</string>
+    <string name="clear">Clear</string>
+    <string name="search_in">Search In</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="apply_filter">Apply Filter</string>
+    <string name="sort_by">Sort by</string>
+    <string name="upload_date">Upload date</string>
+    <string name="relevance">Relevance</string>
+</resources>
